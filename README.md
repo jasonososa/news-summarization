@@ -1,4 +1,5 @@
 # This is an in-progress project
+### Updated on July 8, 2020
 # Title: Get your news summary
 
 # Main project: Create an app that would output news summary from an input date and news category
