@@ -1,8 +1,6 @@
 # This is an in-progress project
 # Get your news summary
 
-## This repository is part of a bigger project that is in progress.
-
 # Main project: Create an app that would output news summary from an input date and news category
 ## Approach:
 
