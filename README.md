@@ -14,8 +14,8 @@
 ### Part 1:
 Baseline Model:
 * Tf-Idf + bigrams followed by multinomial Naive Bayes. I am interested on a model that performs well for both precision and recall. Therefore the harmonic mean of precision and recall or the f1 score is a good metric for measuring model performance.
-Model performance:
-    - For the purpose of fast iteration I used only 10% of the data. With the smaller dataset, model performance was not great with the following metrics:
+    * Model performance:
+        * For the purpose of fast iteration I used only 10% of the data. With the smaller dataset, model performance was not great with the following metrics:
         precision = 69.7%
         recall = 33.0%clear
         f1 score = 37.0%
