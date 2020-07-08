@@ -1,5 +1,5 @@
 # This is an in-progress project
-# Get your news summary
+# Title: Get your news summary
 
 # Main project: Create an app that would output news summary from an input date and news category
 ## Approach:
