@@ -47,10 +47,10 @@
 ```cd ./news_cat_models```
 
 ##### To install dependencies run: 
-    ```pip3 install -r dependencies.txt```
+```pip3 install -r dependencies.txt```
 
 ##### To run the project with default arguments run:
-    ```python3 main.py```
+```python3 main.py```
 
 ##### To run the project with different arguments run:
-    ```python3 main.py --category ENTERTAINMENT```
+```python3 main.py --category ENTERTAINMENT```
