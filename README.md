@@ -17,7 +17,7 @@
     * For the purpose of fast iteration I used only 10% of the data. With the smaller dataset, model performance was not great with the following metrics:
          * Model performance:
             * precision = 69.7%
-            * recall = 33.0%clear
+            * recall = 33.0%
             * f1 score = 37.0%
     * Metrics with the whole dataset were about the same
 ##### Conclusion:
@@ -43,13 +43,13 @@
 
 # How to use:
 
-`cd into the project directory`
+`cd into the project directory
 
-In the command line run: 
+##### To install dependencies run: 
     `pip3 install -r dependencies.txt`
 
-To run the project, type the following in the command line:
+##### To run the project with default arguments run:
     `python3 main.py`
 
-The project can be run with different arguments by specifying the parameters whie running main.py. For example:
+##### To run the project with different arguments run:
     `python3 main.py --category ENTERTAINMENT`
