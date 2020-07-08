@@ -19,7 +19,7 @@ Baseline Model:
         precision = 69.7%
         recall = 33.0%clear
         f1 score = 37.0%
-    - Metrics with the whole dataset were about the same
+    * Metrics with the whole dataset were about the same
 Conclusion:
     - f1 score for this model was mediocre. I did try other models (Logistic Regression, Random Forest) during exploration using a notebook and Naive Bayes performed about the same or even better.
 
