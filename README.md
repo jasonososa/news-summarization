@@ -42,14 +42,15 @@
 * Use a more complex classification models such as neural networks. This will be great to account for not linear interactions of the features.
 
 # How to use:
+##### Go folder's repository:
 
-```cd into the project directory```
+```cd ./news_cat_models```
 
 ##### To install dependencies run: 
-    `<pip3 install -r dependencies.txt>`
+    ```pip3 install -r dependencies.txt```
 
 ##### To run the project with default arguments run:
-    `<python3 main.py>`
+    ```python3 main.py```
 
 ##### To run the project with different arguments run:
-    `<python3 main.py --category ENTERTAINMENT>`
+    ```python3 main.py --category ENTERTAINMENT```
