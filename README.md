@@ -43,7 +43,7 @@
 
 # How to use:
 
-`<cd into the project directory>`
+```cd into the project directory```
 
 ##### To install dependencies run: 
     `<pip3 install -r dependencies.txt>`
