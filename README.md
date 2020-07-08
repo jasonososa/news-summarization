@@ -43,7 +43,7 @@
 * Use a more complex classification models such as neural networks. This will be great to account for not linear interactions of the features.
 
 # How to use:
-##### Go folder's repository:
+##### Go to the folder's repository:
 
 ```cd ./news_categories_models```
 
