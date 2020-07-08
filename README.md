@@ -45,7 +45,7 @@
 # How to use:
 ##### Go folder's repository:
 
-```cd ./news_cat_models```
+```cd ./news_categories_models```
 
 ##### To install dependencies run: 
 ```pip3 install -r dependencies.txt```
