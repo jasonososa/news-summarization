@@ -16,29 +16,29 @@ Baseline Model:
 * Tf-Idf + bigrams followed by multinomial Naive Bayes. I am interested on a model that performs well for both precision and recall. Therefore the harmonic mean of precision and recall or the f1 score is a good metric for measuring model performance.
     * Model performance:
         * For the purpose of fast iteration I used only 10% of the data. With the smaller dataset, model performance was not great with the following metrics:
-        precision = 69.7%
-        recall = 33.0%clear
-        f1 score = 37.0%
+         * precision = 69.7%
+         * recall = 33.0%clear
+         * f1 score = 37.0%
     * Metrics with the whole dataset were about the same
 Conclusion:
-    - f1 score for this model was mediocre. I did try other models (Logistic Regression, Random Forest) during exploration using a notebook and Naive Bayes performed about the same or even better.
+* f1 score for this model was mediocre. I did try other models (Logistic Regression, Random Forest) during exploration using a notebook and Naive Bayes performed about the same or even better.
 
 Second model iteration:
-    - Use spaCy pretrained model to create an embedding representation of headlines. Decrease multicolinearity of the embeddings with PCA and then train a logistic regression. As before I'd pay attention to f1 score.
+* Use spaCy pretrained model to create an embedding representation of headlines. Decrease multicolinearity of the embeddings with PCA and then train a logistic regression. As before I'd pay attention to f1 score.
 Model performance:
-    - For fast iteration I used the small Spacy pretrained model and only 10% of the data. The small pretrained model provides an embedding of 96 features which should give a decent performance. Model performance was better than with the simpler ngrams. However, it is still not great:
-        precision = 95.6%
-        recall = 34.6%
-        f1 score = 50.6%
+   * For fast iteration I used the small Spacy pretrained model and only 10% of the data. The small pretrained model provides an embedding of 96 features which should give a decent performance. Model performance was better than with the simpler ngrams. However, it is still not great:
+      * precision = 95.6%
+      *  recall = 34.6%
+      *  f1 score = 50.6%
 
 Conclusion:
-    - f1 score for this model was quite low and not acceptable. I did try other models (Random Forest) during exploration using a notebook and logistic regression performed slightly better. It is worth mentioning that precision is quite high, where are recall is very low. This indicates that there is a large number of false negative and point to a potential mistake in re-consolidating the labels.
+* f1 score for this model was quite low and not acceptable. I did try other models (Random Forest) during exploration using a notebook and logistic regression performed slightly better. It is worth mentioning that precision is quite high, where are recall is very low. This indicates that there is a large number of false negative and point to a potential mistake in re-consolidating the labels.
 
 Next steps:
-    - Get more compute power and train models using whole dataset
-    - Re-consolidate labels using a similarity metric like cosine similarity. It is very likely that my guesses are wrong.
-    - Create embeddings using more complex model embeddings. I'd specifically be interested on using Bert, since it performs quite well for text classification.
-    - Use a more complex classification models such as neural networks. This will be great to account for not linear interactions of the features.
+* Get more compute power and train models using whole dataset
+* Re-consolidate labels using a similarity metric like cosine similarity. It is very likely that my guesses are wrong.
+* Create embeddings using more complex model embeddings. I'd specifically be interested on using Bert, since it performs quite well for text classification.
+* Use a more complex classification models such as neural networks. This will be great to account for not linear interactions of the features.
 
 # How to use:
 
