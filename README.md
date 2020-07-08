@@ -43,13 +43,13 @@
 
 # How to use:
 
-cd into the project directory
+`cd into the project directory`
 
 In the command line run: 
-    pip3 install -r dependencies.txt
+    `pip3 install -r dependencies.txt`
 
 To run the project, type the following in the command line:
-    python3 main.py
+    `python3 main.py`
 
 The project can be run with different arguments by specifying the parameters whie running main.py. For example:
-    python3 main.py --category ENTERTAINMENT
+    `python3 main.py --category ENTERTAINMENT`
